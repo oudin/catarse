@@ -25,6 +25,9 @@ module Catarse
 
     # Since Rails 3.1, all folders inside app/ will be loaded automatically
     config.autoload_paths += %W(#{config.root}/lib #{config.root}/lib/**)
+    
+    # Stop app from attempting to connect to the database as part of rake assets:precompile.
+    config.assets.initialize_on_precompile = false
 
     # Default encoding for the server
     config.encoding = "utf-8"
@@ -52,6 +55,6 @@ module Catarse
 
     # TODO: remove
     config.active_record.whitelist_attributes = false
-
+    
   end
 end

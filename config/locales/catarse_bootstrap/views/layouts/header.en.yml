@@ -1,0 +1,20 @@
+en:
+  layouts:
+    header:
+      blog: 'Blog'
+      discover: 'Explore'
+      faq: 'FAQ'
+      help: 'Help'
+      profile: 'My Account'
+      projects: 'My Projects'
+      signin: 'Login'
+      signup: 'Sign Up'
+      submit: 'Start Your Campaign'
+      search: 'Search Campaigns'
+    login:
+      login_with_facebook: 'Login With Your Facebook Account'
+    user:
+      my_contributions: 'Support'
+      logout: 'Sign Out'
+      my_credits: 'Credit Balance'
+      refund_link: 'Refund Request'

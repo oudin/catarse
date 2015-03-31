@@ -1,0 +1,32 @@
+en:
+  layouts:
+    footer:
+      links:
+        jobs: 'Work With Us'
+        blog: 'Blog'
+        contact: 'Contact'
+        discover: 'Discover Campaigns'
+        start: 'How It Works'
+        expiring: 'In the final stretch'
+        facebook: 'Facebook'
+        faq: 'FAQ'
+        guides: 'Guide of Directors'
+        feedback: 'Feedback'
+        github: 'Github'
+        instagram: 'Instagram'
+        near: 'Near Me'
+        press: 'Press'
+        privacy: 'Privacy Policy'
+        recents: 'Recent'
+        recommended: 'Recommended'
+        submit: 'Submit Your Campaign'
+        terms: 'Terms'
+        twitter: 'Twitter'
+      texts:
+        copyleft: 'Company Name'
+      titles:
+        about: 'About'
+        contact: 'Contact'
+        newsletter: 'Subscribe To Our Newsletter'
+        sitemap: 'Browse'
+        social: 'Social Networks'

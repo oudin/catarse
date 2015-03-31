@@ -19,11 +19,11 @@ en:
         privacy: 'Privacy Policy'
         recents: 'Recent'
         recommended: 'Recommended'
-        submit: 'Submit Your Campaign'
+        submit: 'Start Your Campaign'
         terms: 'Terms'
         twitter: 'Twitter'
       texts:
-        copyleft: 'Company Name'
+        copyleft: 'CompanyName'
       titles:
         about: 'About'
         contact: 'Contact'

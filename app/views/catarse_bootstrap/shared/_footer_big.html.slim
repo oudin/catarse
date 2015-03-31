@@ -13,7 +13,7 @@ footer.main-footer.main-footer-neg
         .footer-full-signature-text.fontsize-small Assine nossa news
         .w-form
           = render 'shared/newsletter'
-        .footer-full-signature-text.fontsize-small Redes sociais
+        .footer-full-signature-text.fontsize-small t('footer.titles.social')
         .w-widget.w-widget-facebook.u-marginbottom-20
           = render_facebook_like colorscheme: "dark"
         .w-widget.w-widget-twitter
@@ -21,6 +21,6 @@ footer.main-footer.main-footer-neg
   .w-container
     .footer-full-copyleft 
       = image_tag "logo-footer.png", class: "u-marginbottom-20"
-      .lineheight-loose Feito com amor | 2015 | Open source
+      .lineheight-loose Feito com amor | #{DateTime.now.year} 
       
       

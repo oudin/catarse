@@ -2,7 +2,7 @@ en:
   devise:
     registrations:
       new:
-        have_account_html: "Have an account?"
+        have_account_html: "Already Have an account?"
         titles:
           site: 'Sign up'
           header: 'Sign up'
@@ -11,9 +11,10 @@ en:
         form:
           labels:
             show_password: 'Show password'
-            name: 'Name'
+            name: 'Full Name'
             password: 'Password'
             newsletter: 'I want to subscribe to Catarse newsletter'
+            accept: 'When you register, you are accepting our <a href="%{terms_url}" class="alt-link" target="_blank">term of use </a> and <a class="alt-link" href="%{privacy_url}" target="_blank">privacy policy</a>'
           hint:
             password_length: 'Must be at least 6 characters.'
           inputs:

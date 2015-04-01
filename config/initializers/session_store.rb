@@ -1,7 +1,7 @@
 # Be sure to restart your server when you modify this file.
 
 #if Rails.env.production? && CatarseSettings.get_without_cache(:base_domain)
-  Catarse::Application.config.session_store :cookie_store, :key => '_sample_app_session' , :domain => '.herokuapp.com'
+  Catarse::Application.config.session_store :cookie_store, :key => '_sample_app_session' , :domain => '.pure-depths-2749.herokuapp.com'
   #Catarse::Application.config.session_store :cookie_store, key: CatarseSettings.get_without_cache(:secret_token), domain: CatarseSettings.get_without_cache(:base_domain)
 #else
 #  Catarse::Application.config.session_store :cookie_store, key: CatarseSettings.get_without_cache(:secret_token)
